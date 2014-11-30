@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MedianOfNumbers {
+public class MedianOfNumbers_Héctor {
 
 	public int findMedian(int[] numbers) {
 		if (numbers.length % 2 == 0)
@@ -22,9 +22,9 @@ public class MedianOfNumbers {
 		}
 		System.out.print("}");
 		System.out.println("]");
-		MedianOfNumbers obj;
+		MedianOfNumbers_Héctor obj;
 		int answer;
-		obj = new MedianOfNumbers();
+		obj = new MedianOfNumbers_Héctor();
 		long startTime = System.currentTimeMillis();
 		answer = obj.findMedian(p0);
 		long endTime = System.currentTimeMillis();
